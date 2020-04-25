@@ -17,5 +17,7 @@ let result = Number('score');
 console.log(result); //NaN (not a number)
 
 // positive numbers are considered as boolean true values
-let bool = Boolean(100);
+let bool = Boolean(100); // true
+let bool = Boolean(0); // false
+let bool = Boolean('1'); // all strings are true
 console.log(bool);
