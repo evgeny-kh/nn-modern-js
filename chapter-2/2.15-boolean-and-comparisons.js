@@ -21,5 +21,6 @@ console.log(age >= 25);
 let name = 'shaun';
 console.log(name == 'shaun');
 console.log(name == 'Shaun'); //false
-console.log(name > 'crystal'); //true cas 's' stand latter in the alphabet
-console.log(name > 'Shaun'); //false
+console.log(name > 'crystal'); //true cause 's' stand latter in the alphabet
+console.log(name > 'Shaun'); //true cause lowercase letter are greater than uppercase letters
+console.log(name > 'Crystal'); //also true
