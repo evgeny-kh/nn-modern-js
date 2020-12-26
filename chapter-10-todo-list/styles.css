@@ -1,0 +1,28 @@
+.container{
+  max-width: 400px; 
+}
+.delete{
+  cursor: pointer;
+  opacity: 0;
+}
+li:hover > .delete{
+  opacity: .3;
+}
+.delete:hover{
+  opacity: 1 !important;
+}
+.filtered{
+  display: none !important;
+}
+.input-container{
+  position: relative;
+}
+.input-icon-right{
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  opacity: .3;
+}
+input:focus + .input-icon-right{
+  opacity: 1;
+}
